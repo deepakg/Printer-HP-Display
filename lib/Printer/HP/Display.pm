@@ -106,7 +106,7 @@ sub get_display {
 
 =head2 get_status()
 
-Get a raw dump of the PJL INFO STATUS command.
+Get a raw dump of the PJL INFO STATUS command. Returns an array with one element per line of message received from the printer.
 
 =cut
 
